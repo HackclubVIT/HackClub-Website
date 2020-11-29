@@ -3,7 +3,7 @@
     <tr>
         <td>
             <a href="http://hackclub.tech/">
-            <img width="50" height="50" src='https://github.com/HackclubVIT/HackClub-Website/blob/master/assests/output-onlinepngtools.png'>
+            <img width="50" height="50" src='https://github.com/HackclubVIT/HackClub-Website/blob/master/assets/output-onlinepngtools.png'>
             </a>
         </td>
         <td><h2><b>HackClub| VIT Chennai</b></h2></td>
