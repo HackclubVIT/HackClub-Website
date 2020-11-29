@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    min-height: 100%;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0px;
+    background-color: #0b1c2c;
+}
+
+a{
+    text-decoration: none;
+}
+.logo_container{
+    display:flex;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    margin: 20px auto;
+}
+.logo{
+    width:100px;
+    border-radius: 36%;
+    height:100px;
+    width: 100px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.651),5px 5px 15px rgba(0, 0, 0, 0.651), 10px 0px 15px rgba(0, 0, 0, 0.658), -10px 0px 15px rgba(0, 0, 0, 0.651);  
+}
+h2{
+    color: black;
+}
+.foot{
+    position: static;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    z-index: -1;
+    transform: scale(0.9);
+    padding:0px 20px;
+}
+.card:hover{
+    transition: 0.75s;
+    transform:  scale(1.2) rotateY(360deg);
+}
+#text{
+    color: #ff8c37;
+    font-size: 120%;
+    text-align: center;
+    margin: 0;
+}
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;  
+  border-radius: 0.75rem;
+}
+
+#text{
+    color: #ff8c37;
+    font-size: 120%;
+    text-align: center;
+    margin: 0;
+}
+
+.button1 {
+  background-color: #0b1c2c; 
+  color: white; 
+  border: 2px solid white;
+}
+
+.button1:hover {
+  background-color: black;
+  color: #ff8c37;
+}
+
+.links{
+    margin: auto;
+    width: 50%;
+    border: 3px solid;
+    padding: 10px;
+    border-radius: 7px;
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.links:hover{
+    background-color: #ff8c37;
+    color:black;
+    cursor: pointer;
+}
+.link{
+    margin: auto;
+    width: 125px;
+    border: 3px solid;
+    padding: 10px;
+    border-radius: 7px;
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.link:hover{
+    background-color: #ff8c37;
+    color:black;
+    cursor: pointer;
+}
