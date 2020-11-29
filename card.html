@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-174226233-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-174226233-1');
+</script>
+    <meta name="author" content="Web development team, Hackclub VIT Chennai">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Hack Club">
+    <meta name="twitter:site" content="@hackclub">
+    <title>Code of Conduct – Hack Club</title>
+    <meta property="og:title" content="Code of Conduct – Hack Club">
+    <meta name="twitter:title" content="Code of Conduct – Hack Club">
+    <meta name="description" content="The required standards of conduct for the Hack Club community &amp; events.">
+    <meta property="og:description"
+        content="The required standards of conduct for the Hack Club community &amp; events.">
+    <meta name="twitter:description"
+        content="The required standards of conduct for the Hack Club community &amp; events.">
+    <meta property="og:image"
+        content="https://workshop-cards.hackclub.com/Code%20of%20Conduct.png?theme=light&amp;fontSize=300px">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image"
+        content="https://workshop-cards.hackclub.com/Code%20of%20Conduct.png?theme=light&amp;fontSize=300px">
+    <meta name="theme-color" content="#ec3750">
+    <meta name="msapplication-TileColor" content="#ec3750">
+    <link rel="mask-icon" href="https://assets.hackclub.com/favicons/safari-pinned-tab.svg" color="#ec3750">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://assets.hackclub.com/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://assets.hackclub.com/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://assets.hackclub.com/favicons/favicon-16x16.png">
+    <link rel="manifest" href="https://assets.hackclub.com/favicons/site.webmanifest">
+    <meta name="next-head-count" content="22">
+    <link rel="preload" href="/workshops/_next/static/css/eecb90b342d79b6c0e85.css" as="style">
+    <link rel="stylesheet" href="/workshops/_next/static/css/eecb90b342d79b6c0e85.css">
+    <link rel="preload" href="/workshops/_next/static/IVS_L7QggRH3AYpB9oNAt/pages/_app.js" as="script">
+    <link rel="preload" href="/workshops/_next/static/IVS_L7QggRH3AYpB9oNAt/pages/conduct.js" as="script">
+    <link rel="preload" href="/workshops/_next/static/runtime/webpack-b867935e267e192a11ba.js" as="script">
+    <link rel="preload" href="/workshops/_next/static/chunks/framework.58fc7dcf2bf1f30ab30c.js" as="script">
+    <link rel="preload" href="/workshops/_next/static/chunks/commons.420462c86cb0d9fb74e2.js" as="script">
+    <link rel="preload"
+        href="/workshops/_next/static/chunks/8f0e2bbcfbcbf43b315d8dfa789952169af962b4.6a62d243f3231256c4b1.js"
+        as="script">
+    <link rel="preload" href="/workshops/_next/static/runtime/main-204ce9c3580927723629.js" as="script">
+    <link rel="preload"
+        href="/workshops/_next/static/chunks/fa90c7346866f92f963107f309529dbe3f1f35d4.0d240450bb26a5ca5a78.js"
+        as="script">
+    <style id="__jsx-2359713219">
+        #nprogress {
+            pointer-events: none;
+        }
+
+        #nprogress .bar {
+            background: #ec3750;
+            position: fixed;
+            z-index: 1031;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+        }
+
+        #nprogress .peg {
+            display: block;
+            position: absolute;
+            right: 0px;
+            width: 100px;
+            height: 100%;
+            box-shadow: 0 0 10px #ec3750, 0 0 5px #ec3750;
+            opacity: 1;
+            -webkit-transform: rotate(3deg) translate(0px, -4px);
+            -ms-transform: rotate(3deg) translate(0px, -4px);
+            -webkit-transform: rotate(3deg) translate(0px, -4px);
+            -ms-transform: rotate(3deg) translate(0px, -4px);
+            transform: rotate(3deg) translate(0px, -4px);
+        }
+
+        #nprogress .spinner {
+            display: block;
+            position: fixed;
+            z-index: 1031;
+            top: 15px;
+            right: 15px;
+        }
+
+        #nprogress .spinner-icon {
+            width: 18px;
+            height: 18px;
+            box-sizing: border-box;
+            border: solid 2px transparent;
+            border-top-color: #ec3750;
+            border-left-color: #ec3750;
+            border-radius: 50%;
+            -webkit-animation: nprogresss-spinner 400ms linear infinite;
+            -webkit-animation: nprogress-spinner 400ms linear infinite;
+            animation: nprogress-spinner 400ms linear infinite;
+        }
+
+        .nprogress-custom-parent {
+            overflow: hidden;
+            position: relative;
+        }
+
+        .nprogress-custom-parent #nprogress .spinner,
+        .nprogress-custom-parent #nprogress .bar {
+            position: absolute;
+        }
+
+        @-webkit-keyframes nprogress-spinner {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+
+        @-webkit-keyframes nprogress-spinner {
+            0% {
+                -webkit-transform: rotate(0deg);
+                -ms-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes nprogress-spinner {
+            0% {
+                -webkit-transform: rotate(0deg);
+                -ms-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+    <style></style>
+    <style data-emotion="css-global"></style>
+    <style data-emotion="css-global"></style>
+    <style data-emotion-css="1obippc">
+        .css-1obippc {
+            box-sizing: border-box;
+            margin: 0;
+            min-width: 0;
+            background-color: var(--theme-ui-colors-sheet, #f9fafc);
+            padding-top: 16px;
+            padding-bottom: 16px;
+        }
+    </style>
+    <style data-emotion-css="102ud5h">
+        .css-102ud5h {
+            box-sizing: border-box;
+            margin: 0;
+            min-width: 0;
+            width: 100%;
+            max-width: container;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 1024px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 16px;
+            padding-right: 16px;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+
+        @media screen and (min-width:48em) {
+            .css-102ud5h {
+                max-width: 1200px;
+            }
+        }
+
+        @media screen and (min-width:96em) {
+            .css-102ud5h {
+                max-width: 1536px;
+            }
+        }
+
+        .css-102ud5h a {
+            font-size: 16px;
+            color: var(--theme-ui-colors-primary, #ec3750);
+            -webkit-text-decoration: none;
+            text-decoration: none;
+        }
+    </style>
+    <style data-emotion-css="9nisa6">
+        .css-9nisa6 {
+            box-sizing: border-box;
+            margin: 0;
+            min-width: 0;
+            color: var(--theme-ui-colors-primary, #ec3750);
+            -webkit-text-decoration: underline;
+            text-decoration: underline;
+            text-underline-position: under;
+            margin-top: -16px;
+            line-height: 0;
+            margin-right: auto;
+        }
+
+        .css-9nisa6:focus,
+        .css-9nisa6:hover {
+            -webkit-text-decoration-style: wavy;
+            text-decoration-style: wavy;
+        }
+    </style>
+    <style data-emotion-css="7aelo4">
+        .css-7aelo4 {
+            box-sizing: border-box;
+            margin: 0;
+            min-width: 0;
+            max-width: 100%;
+            height: auto;
+            width: 96px;
+        }
+
+        @media screen and (min-width:32em) {
+            .css-7aelo4 {
+                width: 128px;
+            }
+        }
+    </style>
+    <style data-emotion-css="wo23ae">
+        .css-wo23ae {
+            box-sizing: border-box;
+            margin: 0;
+            min-width: 0;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            display: -webkit-inline-box;
+            display: -webkit-inline-flex;
+            display: -ms-inline-flexbox;
+            display: inline-flex;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            padding: 4px;
+            width: 32px;
+            height: 32px;
+            color: inherit;
+            background-color: transparent;
+            border: none;
+            border-radius: 4px;
+            color: var(--theme-ui-colors-red, #ec3750);
+            border-radius: 99999px;
+            -webkit-text-decoration: none;
+            text-decoration: none;
+            margin-right: 16px;
+            -webkit-transition: box-shadow .125s ease-in-out;
+            transition: box-shadow .125s ease-in-out;
+        }
+
+        @media screen and (min-width:32em) {
+            .css-wo23ae {
+                margin-right: 32px;
+            }
+        }
+
+        .css-wo23ae:hover,
+        .css-wo23ae:focus {
+            box-shadow: 0 0 0 2px;
+            outline: none;
+        }
+    </style>
+    <style data-emotion-css="xbr2g4">
+        .css-xbr2g4 {
+            box-sizing: border-box;
+            margin: 0;
+            min-width: 0;
+            background-color: var(--theme-ui-colors-sheet, #f9fafc);
+            color: var(--theme-ui-colors-text, #1f2d3d);
+            padding-top: 8px;
+            padding-bottom: 16px;
+            margin-bottom: 0;
+            text-align: center;
+        }
+
+        @media screen and (min-width:32em) {
+            .css-xbr2g4 {
+                padding-bottom: 32px;
+            }
+        }
+    </style>
+    <style data-emotion-css="1x5yqeh">
+        .css-1x5yqeh {
+            box-sizing: border-box;
+            margin: 0;
+            min-width: 0;
+            width: 100%;
+            max-width: container;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 680px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+
+        @media screen and (min-width:96em) {
+            .css-1x5yqeh {
+                max-width: 768px;
+            }
+        }
+    </style>
+    <style data-emotion-css="1ffyiak">
+        .css-1ffyiak {
+            box-sizing: border-box;
+            margin: 0;
+            min-width: 0;
+            font-family: "Phantom Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-weight: 700;
+            line-height: 1.125;
+            font-size: 32px;
+            font-weight: 700;
+            -webkit-letter-spacing: -0.009em;
+            -moz-letter-spacing: -0.009em;
+            -ms-letter-spacing: -0.009em;
+            letter-spacing: -0.009em;
+            line-height: 1;
+            color: var(--theme-ui-colors-primary, #ec3750);
+        }
+
+        @media screen and (min-width:32em) {
+            .css-1ffyiak {
+                font-size: 48px;
+            }
+        }
+
+        @media screen and (min-width:48em) {
+            .css-1ffyiak {
+                font-size: 64px;
+            }
+        }
+    </style>
+    <style data-emotion-css="1x6brwn">
+        .css-1x6brwn {
+            box-sizing: border-box;
+            margin: 0;
+            min-width: 0;
+            font-family: "Phantom Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-weight: 700;
+            line-height: 1.125;
+            font-size: 20px;
+            font-weight: 400;
+            -webkit-letter-spacing: 0.009em;
+            -moz-letter-spacing: 0.009em;
+            -ms-letter-spacing: 0.009em;
+            letter-spacing: 0.009em;
+            line-height: 1.25;
+            margin-top: 16px;
+            color: var(--theme-ui-colors-text, #1f2d3d);
+        }
+
+        @media screen and (min-width:32em) {
+            .css-1x6brwn {
+                font-size: 24px;
+            }
+        }
+
+        @media screen and (min-width:96em) {
+            .css-1x6brwn {
+                font-size: 32px;
+            }
+        }
+    </style>
+    <style data-emotion-css="1vns4tz">
+        .css-1vns4tz {
+            box-sizing: border-box;
+            margin: 0;
+            min-width: 0;
+            width: 100%;
+            max-width: container;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 680px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+        }
+
+        @media screen and (min-width:96em) {
+            .css-1vns4tz {
+                max-width: 768px;
+            }
+        }
+
+        @media screen and (min-width:32em) {
+            .css-1vns4tz {
+                padding-top: 32px;
+                padding-bottom: 32px;
+            }
+        }
+    </style>
+    <style data-emotion-css="r86mz5">
+        .css-r86mz5 {
+            font-size: 1.25rem;
+        }
+
+        .css-r86mz5 a {
+            word-break: break-word;
+        }
+
+        .css-r86mz5 .heading a {
+            color: inherit;
+            -webkit-text-decoration: none;
+            text-decoration: none;
+        }
+    </style>
+    <style data-emotion-css="7zufcv">
+        .css-7zufcv {
+            font-family: "Phantom Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.5;
+            font-weight: 400;
+            font-size: 1.25rem;
+        }
+
+        .css-7zufcv root {
+            font-family: "Phantom Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.5;
+            font-weight: 400;
+            color: var(--theme-ui-colors-text, #1f2d3d);
+            margin: 0;
+            min-height: 100vh;
+        }
+
+        .css-7zufcv h1 {
+            font-weight: 700;
+            line-height: 1.125;
+            font-size: 48px;
+        }
+
+        .css-7zufcv h2 {
+            font-weight: 700;
+            line-height: 1.125;
+            font-size: 32px;
+        }
+
+        .css-7zufcv h3 {
+            font-weight: 700;
+            line-height: 1.125;
+            font-size: 24px;
+        }
+
+        .css-7zufcv h4 {
+            font-weight: 700;
+            line-height: 1.125;
+            font-size: 20px;
+        }
+
+        .css-7zufcv h5 {
+            font-weight: 700;
+            line-height: 1.125;
+            font-size: 16px;
+        }
+
+        .css-7zufcv h6 {
+            font-weight: 700;
+            line-height: 1.125;
+            font-size: 12px;
+        }
+
+        .css-7zufcv p {
+            color: var(--theme-ui-colors-text, #1f2d3d);
+            font-weight: 400;
+            line-height: 1.5;
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+
+        .css-7zufcv img {
+            max-width: 100%;
+        }
+
+        .css-7zufcv hr {
+            border: 0;
+            border-bottom: 1px solid;
+            border-color: var(--theme-ui-colors-border, #e0e6ed);
+        }
+
+        .css-7zufcv a {
+            color: var(--theme-ui-colors-primary, #ec3750);
+            -webkit-text-decoration: underline;
+            text-decoration: underline;
+            text-underline-position: under;
+        }
+
+        .css-7zufcv a:focus,
+        .css-7zufcv a:hover {
+            -webkit-text-decoration-style: wavy;
+            text-decoration-style: wavy;
+        }
+
+        .css-7zufcv pre {
+            font-family: "SF Mono", "Roboto Mono", Menlo, Consolas, monospace;
+            font-size: 16px;
+            padding: 16px;
+            color: var(--theme-ui-colors-text, #1f2d3d);
+            background-color: var(--theme-ui-colors-sunken, #e0e6ed);
+            overflow: auto;
+            border-radius: 8px;
+        }
+
+        .css-7zufcv pre code {
+            color: inherit;
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .css-7zufcv pre code .comment,
+        .css-7zufcv pre code .prolog,
+        .css-7zufcv pre code .doctype,
+        .css-7zufcv pre code .cdata,
+        .css-7zufcv pre code .punctuation,
+        .css-7zufcv pre code .operator,
+        .css-7zufcv pre code .entity,
+        .css-7zufcv pre code .url {
+            color: var(--theme-ui-colors-muted, #8492a6);
+        }
+
+        .css-7zufcv pre code .comment {
+            font-style: italic;
+        }
+
+        .css-7zufcv pre code .property,
+        .css-7zufcv pre code .tag,
+        .css-7zufcv pre code .boolean,
+        .css-7zufcv pre code .number,
+        .css-7zufcv pre code .constant,
+        .css-7zufcv pre code .symbol,
+        .css-7zufcv pre code .deleted,
+        .css-7zufcv pre code .function,
+        .css-7zufcv pre code .class-name,
+        .css-7zufcv pre code .regex,
+        .css-7zufcv pre code .important,
+        .css-7zufcv pre code .variable {
+            color: var(--theme-ui-colors-red, #ec3750);
+        }
+
+        .css-7zufcv pre code .atrule,
+        .css-7zufcv pre code .attr-value,
+        .css-7zufcv pre code .keyword {
+            color: var(--theme-ui-colors-blue, #338eda);
+        }
+
+        .css-7zufcv pre code .selector,
+        .css-7zufcv pre code .attr-name,
+        .css-7zufcv pre code .string,
+        .css-7zufcv pre code .char,
+        .css-7zufcv pre code .builtin,
+        .css-7zufcv pre code .inserted {
+            color: var(--theme-ui-colors-orange, #ff8c37);
+        }
+
+        .css-7zufcv code {
+            font-family: "SF Mono", "Roboto Mono", Menlo, Consolas, monospace;
+            font-size: inherit;
+            color: var(--theme-ui-colors-accent, #338eda);
+            background-color: var(--theme-ui-colors-sunken, #e0e6ed);
+            border-radius: 4px;
+            margin-left: 4px;
+            margin-right: 4px;
+            padding-left: 4px;
+            padding-right: 4px;
+        }
+
+        .css-7zufcv p>code,
+        .css-7zufcv li>code {
+            color: var(--theme-ui-colors-accent, #338eda);
+            font-size: 16px;
+        }
+
+        .css-7zufcv li {
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+
+        .css-7zufcv table {
+            width: 100%;
+            margin-top: 32px;
+            margin-bottom: 32px;
+            border-collapse: separate;
+            border-spacing: 0;
+        }
+
+        .css-7zufcv table th,
+        .css-7zufcv table td {
+            text-align: left;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-right: 4px;
+            padding-left: 0;
+            border-color: var(--theme-ui-colors-border, #e0e6ed);
+            border-bottom-style: solid;
+        }
+
+        .css-7zufcv th {
+            vertical-align: bottom;
+            border-bottom-width: 2px;
+        }
+
+        .css-7zufcv td {
+            vertical-align: top;
+            border-bottom-width: 1px;
+        }
+
+        .css-7zufcv a {
+            word-break: break-word;
+        }
+
+        .css-7zufcv .heading a {
+            color: inherit;
+            -webkit-text-decoration: none;
+            text-decoration: none;
+        }
+    </style>
+    <script id="fathom-script" async="" site="UDLVKCLR" src="https://cdn.usefathom.com/script.js"
+        included-domains="hackclub.com,workshops.hackclub.com"></script>
+    <script async="" src="https://negbar.ad-blocker.org/chrome/adblocker-chromeglobalinjectjs.js"></script>
+    <style type="text/css" data-styled-jsx=""></style>
+    <style data-emotion="css"></style>
+</head>
+
+<body class="" data-gr-c-s-loaded="true">
+    <script>(function () {
+            try {
+                var mode = localStorage.getItem('theme-ui-color-mode');
+                if (!mode) return
+                document.body.classList.add('theme-ui-' + mode);
+            } catch (e) { }
+        })();</script>
+    <div id="__next">
+        <nav class="css-7q9mlo">
+            <div class="css-102ud5h"><a href="https://hackclub.com/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Hack Club homepage" class="css-9nisa6"><img
+                        src="https://assets.hackclub.com/flag-orpheus-top.svg" alt="Hack Club flag"
+                        class="css-7aelo4"></a><button title="Reverse color scheme" class="css-wo23ae"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg></button></div>
+        </nav>
+        <header class="css-1o75h7y">
+            <div class="css-1x5yqeh">
+                <h1 class="css-1ffyiak">Code of Conduct</h1>
+                <h2 class="css-8dr7b1">The required standards of conduct for the Hack Club community &amp; events.</h2>
+            </div>
+        </header>
+        <div class="css-1vns4tz">
+            <div as="article" class="docs css-19lazg1">
+                <h2 id="why-have-a-code-of-conduct" class="heading"><a href="#why-have-a-code-of-conduct">Why have a
+                        Code of Conduct?</a></h2>
+                <p>Hack Club's community includes people from many different backgrounds. The Hack Club contributors are
+                    committed to providing a friendly, safe, and welcoming environment for all, regardless of age,
+                    disability, gender, nationality, race, religion, sexuality, or similar personal characteristic.</p>
+                <p>The first goal of the Code of Conduct is to specify a baseline standard of behavior so that people
+                    with different social values and communication styles can communicate effectively, productively, and
+                    respectfully.</p>
+                <p>The second goal is to provide a mechanism for resolving conflicts in the community when they arise.
+                </p>
+                <p>The third goal of the Code of Conduct is to make our community welcoming to people from different
+                    backgrounds. Diversity is critical in order for us to build a thriving community; for Hack Club to
+                    be successful, it needs hackers from all backgrounds.</p>
+                <p>With that said, a healthy community must allow for disagreement and debate. The Code of Conduct is
+                    not a mechanism for people to silence others with whom they disagree.</p>
+                <h2 id="where-does-the-code-of-conduct-apply" class="heading"><a
+                        href="#where-does-the-code-of-conduct-apply">Where does the Code of Conduct apply?</a></h2>
+                <p>If you join in or contribute to the Hack Club ecosystem in any way, you are encouraged to follow the
+                    Code of Conduct while doing so.</p>
+                <p>Explicit enforcement of the Code of Conduct applies to all official online Hack Club groups,
+                    in-person meetings, and events including:</p>
+                <ul>
+                    <li>The <a href="https://github.com/hackclub/" class="external">GitHub projects</a></li>
+                    <li>The <a href="https://www.facebook.com/groups/1501083703514499/" class="external">Facebook
+                            Group</a></li>
+                    <li>The <a href="https://slack.hackclub.com" class="external">Slack</a></li>
+                    <li>The <code class="inline">#hack-club</code> IRC channel on Freenode</li>
+                    <li>Club Meetings</li>
+                </ul>
+                <p>Other Hack Club groups (such as hackathons, conferences, meetups, and other unofficial forums) are
+                    encouraged to adopt this Code of Conduct. Those groups must provide their own moderators and/or
+                    working group (see below).</p>
+                <h2 id="hacker-values" class="heading"><a href="#hacker-values">Hacker Values</a></h2>
+                <p>These are the values to which people in the Hack Club community should aspire.</p>
+                <ul>
+                    <li>Be friendly and welcoming</li>
+                    <li>Be patient<ul>
+                            <li>Remember that people have varying communication styles and that not everyone is using
+                                their native language (meaning and tone can be lost in translation).</li>
+                        </ul>
+                    </li>
+                    <li>Be thoughtful<ul>
+                            <li>Productive communication requires effort. Think about how your words will be
+                                interpreted.</li>
+                            <li>Remember that sometimes it is best to refrain entirely from commenting.</li>
+                        </ul>
+                    </li>
+                    <li>Be respectful<ul>
+                            <li>In particular, respect differences of opinion.</li>
+                        </ul>
+                    </li>
+                    <li>Be charitable<ul>
+                            <li>Interpret the arguments of others in good faith, do not seek to disagree.</li>
+                            <li>When we do disagree, try to understand why.</li>
+                        </ul>
+                    </li>
+                    <li>Avoid destructive behavior:<ul>
+                            <li>Derailing: stay on topic; if you want to talk about something else, start a new
+                                conversation.</li>
+                            <li>Unconstructive criticism: don't merely condemn the current state of affairs; offer—or at
+                                least solicit—suggestions as to how things may be improved.</li>
+                            <li>Snarking (pithy, unproductive, sniping comments)</li>
+                            <li>Discussing potentially offensive or sensitive issues; this all too often leads to
+                                unnecessary conflict.</li>
+                            <li>Microaggressions: brief and commonplace verbal, behavioral, and environmental
+                                indignities that communicate hostile, derogatory or negative slights and insults to a
+                                person or group.</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p>People are complicated. You should expect to be misunderstood and to misunderstand others; when this
+                    inevitably occurs, resist the urge to be defensive or assign blame. Try not to take offense where no
+                    offense was intended. Give people the benefit of the doubt. Even if the intent was to provoke, do
+                    not rise to it. It is the responsibility of <em>all parties</em> to de-escalate conflict when it
+                    arises.</p>
+                <h2 id="unwelcome-behavior" class="heading"><a href="#unwelcome-behavior">Unwelcome behavior</a></h2>
+                <p>These actions are explicitly forbidden in Hack Club spaces:</p>
+                <ul>
+                    <li>Expressing or provoking:<ul>
+                            <li>insulting, demeaning, hateful, or threatening remarks;</li>
+                            <li>discrimination based on age, nationality, race, (dis)ability, gender (identity or
+                                expression), sexuality, religion, or similar personal characteristic;</li>
+                            <li>bullying or systematic harassment;</li>
+                            <li>unwelcome sexual advances, including sexually explicit content.</li>
+                        </ul>
+                    </li>
+                    <li>Excessive advertisement for unnecessary or non-beneficial commercial products and services.</li>
+                    <li>Posting spam-like content that disrupts the environment of the community.</li>
+                </ul>
+                <h2 id="moderation--enforcement" class="heading"><a href="#moderation--enforcement">Moderation &amp;
+                        Enforcement</a></h2>
+                <p>Please understand that speech and actions have consequences, and unacceptable behavior will not be
+                    tolerated. When you participate in <a href="#where-does-the-code-of-conduct-apply"
+                        class="internal">areas where the code of conduct applies</a>, you should act in the spirit of
+                    the "Hacker values". If you conduct yourself in a way that is explicitly forbidden by the Code of
+                    Conduct, you will be warned and asked to stop, and your messages may be removed by community
+                    moderators. Repeated offenses may result in a temporary or permanent ban from the community.</p>
+                <ul>
+                    <li>On your first offense, you will receive a written notice from one of our community moderators.
+                        Depending on the degree of the reported behavior, you may be asked to apologize, either in
+                        public or directly to the party that you have offended.</li>
+                    <li>On a second offense, you will be temporarily removed from the community. The period of the
+                        temporary ban may vary from 3 days to a month, decided based on the seriousness of the reported
+                        behavior. Please note that this ban <strong>does not indicate that you are no longer welcomed in
+                            the community</strong> - it represents an official warning for your behavior.</li>
+                    <li>On a third offense, you may be asked to leave the community. Your account may be suspended for
+                        an indefinite amount of time, and you may be publicly identified.</li>
+                </ul>
+                <p>This procedure only serves as a general guideline for moderation &amp; enforcement of our community
+                    conduct. Under all circumstances, the Working Group or Hack Club's staff members may take any action
+                    we deem appropriate, including immediate removal from the community. Being banned from the Hack Club
+                    community may also prevent you from participating in our community events, including but not
+                    restricted to: local club meetings, hackathons, or challenges.</p>
+                <p>Please understand that we will not restrict your ability to contact the <a href="#working-group"
+                        class="internal">Code of Conduct working group</a> under any circumstance. If you have any
+                    questions or concerns about our decision, please reach out to us directly. If your Slack account is
+                    under suspension, you should email us directly at conduct@hackclub.com.</p>
+                <h2 id="working-group" class="heading"><a href="#working-group">Working Group</a></h2>
+                <p>The Code of Conduct Working Group is a group of people that represent the Hack Club community. They
+                    are responsible for handling conduct-related issues. Their purpose is to de-escalate conflicts and
+                    try to resolve issues to the satisfaction of all parties. They are:</p>
+
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Slack Handle</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Max Wofford</td>
+                            <td>@msw</td>
+                            <td>max@hackclub.com</td>
+                        </tr>
+                        <tr>
+                            <td>Zach Latta</td>
+                            <td>@zrl</td>
+                            <td>zach@hackclub.com</td>
+                        </tr>
+                        <tr>
+                            <td>Chris Walker</td>
+                            <td>@cwalker</td>
+                            <td>cwalker@hackclub.com</td>
+                        </tr>
+                        <tr>
+                            <td>Theo Bleier</td>
+                            <td>@tmb</td>
+                            <td>tmb@hackclub.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h2 id="reporting-issues" class="heading"><a href="#reporting-issues">Reporting Issues</a></h2>
+                <p>If you encounter a conduct-related issue, you should report it to the Working Group using the process
+                    described below. <strong>Do not</strong> post about the issue publicly or try to rally sentiment
+                    against a particular individual or group.</p>
+                <ul>
+                    <li>Mail conduct@hackclub.com<ul>
+                            <li>Your message will reach the Working Group.</li>
+                            <li>Reports are confidential within the Working Group.</li>
+                            <li>Should you choose to remain anonymous then the Working Group cannot notify you of the
+                                outcome of your report.</li>
+                            <li>You may contact a member of the group directly if you do not feel comfortable contacting
+                                the group as a whole. That member will then raise the issue with the Working Group as a
+                                whole, preserving the privacy of the reporter (if desired).</li>
+                            <li>If your report concerns a member of the Working Group they will be recused from Working
+                                Group discussions of the report.</li>
+                            <li>The Working Group will strive to handle reports with discretion and sensitivity, to
+                                protect the privacy of the involved parties, and to avoid conflicts of interest.</li>
+                        </ul>
+                    </li>
+                    <li>You should receive a response within 48 hours (likely sooner). (Should you choose to contact a
+                        single Working Group member, it may take longer to receive a response.)</li>
+                    <li>The Working Group will meet to review the incident and determine what happened.<ul>
+                            <li>With the permission of person reporting the incident, the Working Group may reach out to
+                                other community members for more context.</li>
+                            <li>The Working Group will reach a decision as to how to act. These may include:<ul>
+                                    <li>Nothing.</li>
+                                    <li>A request for a private or public apology.</li>
+                                    <li>A private or public warning.</li>
+                                    <li>An imposed vacation (for instance, asking someone to abstain for a week
+                                        from the Facebook Group or Slack).</li>
+                                    <li>A permanent or temporary ban from some or all Hack Club spaces.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>The Working Group will reach out to the original reporter to let them know the decision.</li>
+                    <li>Appeals to the decision may be made to the Working Group, or to any of its members directly.
+                    </li>
+                </ul>
+                <p><strong>Note that the goal of the Code of Conduct and the Working Group is to resolve conflicts in
+                        the most harmonious way possible.</strong> We hope that in most cases issues may be resolved
+                    through polite discussion and mutual agreement. Bannings and other forceful measures are to be
+                    employed only as a last resort.</p>
+                <p>Changes to the Code of Conduct (including to the members of the Working Group) should be proposed by
+                    creating an issue <a href="https://github.com/hackclub/hackclub/issues/new"
+                        class="external">here</a> or making a pull request to this document.</p>
+                <h2 id="summary" class="heading"><a href="#summary">Summary</a></h2>
+                <ul>
+                    <li>Treat everyone with respect and kindness.</li>
+                    <li>Be thoughtful in how you communicate.</li>
+                    <li>Don't be destructive or inflammatory.</li>
+                    <li>If you encounter an issue, please mail conduct@hackclub.com.</li>
+                </ul>
+                <h2 id="acknowledgments" class="heading"><a href="#acknowledgments">Acknowledgments</a></h2>
+                <p>This was adapted from <a
+                        href="https://github.com/golang/go/commit/aa487e66f869785837275ee20441a53888a51bb2"
+                        class="external">Go's Code of Conduct</a>. It is to be noted that many parts of Go's Code of
+                    Conduct are adopted from the Code of Conduct documents of the Django, FreeBSD, and Rust projects.
+                </p>
+            </div>
+        </div>
+    </div>
+    <script id="__NEXT_DATA__"
+        type="application/json">{"props":{"pageProps":{"html":"\n\u003ch2 id=\"why-have-a-code-of-conduct\" class=\"heading\"\u003e\u003ca href=\"#why-have-a-code-of-conduct\"\u003eWhy have a Code of Conduct?\u003c/a\u003e\u003c/h2\u003e\n\u003cp\u003eHack Club's community includes people from many different backgrounds. The Hack Club contributors are committed to providing a friendly, safe, and welcoming environment for all, regardless of age, disability, gender, nationality, race, religion, sexuality, or similar personal characteristic.\u003c/p\u003e\n\u003cp\u003eThe first goal of the Code of Conduct is to specify a baseline standard of behavior so that people with different social values and communication styles can communicate effectively, productively, and respectfully.\u003c/p\u003e\n\u003cp\u003eThe second goal is to provide a mechanism for resolving conflicts in the community when they arise.\u003c/p\u003e\n\u003cp\u003eThe third goal of the Code of Conduct is to make our community welcoming to people from different backgrounds. Diversity is critical in order for us to build a thriving community; for Hack Club to be successful, it needs hackers from all backgrounds.\u003c/p\u003e\n\u003cp\u003eWith that said, a healthy community must allow for disagreement and debate. The Code of Conduct is not a mechanism for people to silence others with whom they disagree.\u003c/p\u003e\n\u003ch2 id=\"where-does-the-code-of-conduct-apply\" class=\"heading\"\u003e\u003ca href=\"#where-does-the-code-of-conduct-apply\"\u003eWhere does the Code of Conduct apply?\u003c/a\u003e\u003c/h2\u003e\n\u003cp\u003eIf you join in or contribute to the Hack Club ecosystem in any way, you are encouraged to follow the Code of Conduct while doing so.\u003c/p\u003e\n\u003cp\u003eExplicit enforcement of the Code of Conduct applies to all official online Hack Club groups, in-person meetings, and events including:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eThe \u003ca href=\"https://github.com/hackclub/\" class=\"external\"\u003eGitHub projects\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eThe \u003ca href=\"https://www.facebook.com/groups/1501083703514499/\" class=\"external\"\u003eFacebook Group\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eThe \u003ca href=\"https://slack.hackclub.com\" class=\"external\"\u003eSlack\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eThe \u003ccode class=\"inline\"\u003e#hack-club\u003c/code\u003e IRC channel on Freenode\u003c/li\u003e\n\u003cli\u003eClub Meetings\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eOther Hack Club groups (such as hackathons, conferences, meetups, and other unofficial forums) are encouraged to adopt this Code of Conduct. Those groups must provide their own moderators and/or working group (see below).\u003c/p\u003e\n\u003ch2 id=\"hacker-values\" class=\"heading\"\u003e\u003ca href=\"#hacker-values\"\u003eHacker Values\u003c/a\u003e\u003c/h2\u003e\n\u003cp\u003eThese are the values to which people in the Hack Club community should aspire.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eBe friendly and welcoming\u003c/li\u003e\n\u003cli\u003eBe patient\u003cul\u003e\n\u003cli\u003eRemember that people have varying communication styles and that not everyone is using their native language (meaning and tone can be lost in translation).\u003c/li\u003e\n\u003c/ul\u003e\u003c/li\u003e\n\u003cli\u003eBe thoughtful\u003cul\u003e\n\u003cli\u003eProductive communication requires effort. Think about how your words will be interpreted.\u003c/li\u003e\n\u003cli\u003eRemember that sometimes it is best to refrain entirely from commenting.\u003c/li\u003e\n\u003c/ul\u003e\u003c/li\u003e\n\u003cli\u003eBe respectful\u003cul\u003e\n\u003cli\u003eIn particular, respect differences of opinion.\u003c/li\u003e\n\u003c/ul\u003e\u003c/li\u003e\n\u003cli\u003eBe charitable\u003cul\u003e\n\u003cli\u003eInterpret the arguments of others in good faith, do not seek to disagree.\u003c/li\u003e\n\u003cli\u003eWhen we do disagree, try to understand why.\u003c/li\u003e\n\u003c/ul\u003e\u003c/li\u003e\n\u003cli\u003eAvoid destructive behavior:\u003cul\u003e\n\u003cli\u003eDerailing: stay on topic; if you want to talk about something else, start a new conversation.\u003c/li\u003e\n\u003cli\u003eUnconstructive criticism: don't merely condemn the current state of affairs; offer—or at least solicit—suggestions as to how things may be improved.\u003c/li\u003e\n\u003cli\u003eSnarking (pithy, unproductive, sniping comments)\u003c/li\u003e\n\u003cli\u003eDiscussing potentially offensive or sensitive issues; this all too often leads to unnecessary conflict.\u003c/li\u003e\n\u003cli\u003eMicroaggressions: brief and commonplace verbal, behavioral, and environmental indignities that communicate hostile, derogatory or negative slights and insults to a person or group.\u003c/li\u003e\n\u003c/ul\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003ePeople are complicated. You should expect to be misunderstood and to misunderstand others; when this inevitably occurs, resist the urge to be defensive or assign blame. Try not to take offense where no offense was intended. Give people the benefit of the doubt. Even if the intent was to provoke, do not rise to it. It is the responsibility of \u003cem\u003eall parties\u003c/em\u003e to de-escalate conflict when it arises.\u003c/p\u003e\n\u003ch2 id=\"unwelcome-behavior\" class=\"heading\"\u003e\u003ca href=\"#unwelcome-behavior\"\u003eUnwelcome behavior\u003c/a\u003e\u003c/h2\u003e\n\u003cp\u003eThese actions are explicitly forbidden in Hack Club spaces:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eExpressing or provoking:\u003cul\u003e\n\u003cli\u003einsulting, demeaning, hateful, or threatening remarks;\u003c/li\u003e\n\u003cli\u003ediscrimination based on age, nationality, race, (dis)ability, gender (identity or expression), sexuality, religion, or similar personal characteristic;\u003c/li\u003e\n\u003cli\u003ebullying or systematic harassment;\u003c/li\u003e\n\u003cli\u003eunwelcome sexual advances, including sexually explicit content.\u003c/li\u003e\n\u003c/ul\u003e\u003c/li\u003e\n\u003cli\u003eExcessive advertisement for unnecessary or non-beneficial commercial products and services.\u003c/li\u003e\n\u003cli\u003ePosting spam-like content that disrupts the environment of the community.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2 id=\"moderation--enforcement\" class=\"heading\"\u003e\u003ca href=\"#moderation--enforcement\"\u003eModeration \u0026#x26; Enforcement\u003c/a\u003e\u003c/h2\u003e\n\u003cp\u003ePlease understand that speech and actions have consequences, and unacceptable behavior will not be tolerated. When you participate in \u003ca href=\"#where-does-the-code-of-conduct-apply\" class=\"internal\"\u003eareas where the code of conduct applies\u003c/a\u003e, you should act in the spirit of the \"Hacker values\". If you conduct yourself in a way that is explicitly forbidden by the Code of Conduct, you will be warned and asked to stop, and your messages may be removed by community moderators. Repeated offenses may result in a temporary or permanent ban from the community.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eOn your first offense, you will receive a written notice from one of our community moderators. Depending on the degree of the reported behavior, you may be asked to apologize, either in public or directly to the party that you have offended.\u003c/li\u003e\n\u003cli\u003eOn a second offense, you will be temporarily removed from the community. The period of the temporary ban may vary from 3 days to a month, decided based on the seriousness of the reported behavior. Please note that this ban \u003cstrong\u003edoes not indicate that you are no longer welcomed in the community\u003c/strong\u003e - it represents an official warning for your behavior.\u003c/li\u003e\n\u003cli\u003eOn a third offense, you may be asked to leave the community. Your account may be suspended for an indefinite amount of time, and you may be publicly identified.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eThis procedure only serves as a general guideline for moderation \u0026#x26; enforcement of our community conduct. Under all circumstances, the Working Group or Hack Club's staff members may take any action we deem appropriate, including immediate removal from the community. Being banned from the Hack Club community may also prevent you from participating in our community events, including but not restricted to: local club meetings, hackathons, or challenges.\u003c/p\u003e\n\u003cp\u003ePlease understand that we will not restrict your ability to contact the \u003ca href=\"#working-group\" class=\"internal\"\u003eCode of Conduct working group\u003c/a\u003e under any circumstance. If you have any questions or concerns about our decision, please reach out to us directly. If your Slack account is under suspension, you should email us directly at conduct@hackclub.com.\u003c/p\u003e\n\u003ch2 id=\"working-group\" class=\"heading\"\u003e\u003ca href=\"#working-group\"\u003eWorking Group\u003c/a\u003e\u003c/h2\u003e\n\u003cp\u003eThe Code of Conduct Working Group is a group of people that represent the Hack Club community. They are responsible for handling conduct-related issues. Their purpose is to de-escalate conflicts and try to resolve issues to the satisfaction of all parties. They are:\u003c/p\u003e\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\u003ctable\u003e\u003cthead\u003e\u003ctr\u003e\u003cth\u003eName\u003c/th\u003e\u003cth\u003eSlack Handle\u003c/th\u003e\u003cth\u003eEmail\u003c/th\u003e\u003c/tr\u003e\u003c/thead\u003e\u003ctbody\u003e\u003ctr\u003e\u003ctd\u003eMax Wofford\u003c/td\u003e\u003ctd\u003e@msw\u003c/td\u003e\u003ctd\u003emax@hackclub.com\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eZach Latta\u003c/td\u003e\u003ctd\u003e@zrl\u003c/td\u003e\u003ctd\u003ezach@hackclub.com\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eChris Walker\u003c/td\u003e\u003ctd\u003e@cwalker\u003c/td\u003e\u003ctd\u003ecwalker@hackclub.com\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eTheo Bleier\u003c/td\u003e\u003ctd\u003e@tmb\u003c/td\u003e\u003ctd\u003etmb@hackclub.com\u003c/td\u003e\u003c/tr\u003e\u003c/tbody\u003e\u003c/table\u003e\n\u003ch2 id=\"reporting-issues\" class=\"heading\"\u003e\u003ca href=\"#reporting-issues\"\u003eReporting Issues\u003c/a\u003e\u003c/h2\u003e\n\u003cp\u003eIf you encounter a conduct-related issue, you should report it to the Working Group using the process described below. \u003cstrong\u003eDo not\u003c/strong\u003e post about the issue publicly or try to rally sentiment against a particular individual or group.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eMail conduct@hackclub.com\u003cul\u003e\n\u003cli\u003eYour message will reach the Working Group.\u003c/li\u003e\n\u003cli\u003eReports are confidential within the Working Group.\u003c/li\u003e\n\u003cli\u003eShould you choose to remain anonymous then the Working Group cannot notify you of the outcome of your report.\u003c/li\u003e\n\u003cli\u003eYou may contact a member of the group directly if you do not feel comfortable contacting the group as a whole. That member will then raise the issue with the Working Group as a whole, preserving the privacy of the reporter (if desired).\u003c/li\u003e\n\u003cli\u003eIf your report concerns a member of the Working Group they will be recused from Working Group discussions of the report.\u003c/li\u003e\n\u003cli\u003eThe Working Group will strive to handle reports with discretion and sensitivity, to protect the privacy of the involved parties, and to avoid conflicts of interest.\u003c/li\u003e\n\u003c/ul\u003e\u003c/li\u003e\n\u003cli\u003eYou should receive a response within 48 hours (likely sooner). (Should you choose to contact a single Working Group member, it may take longer to receive a response.)\u003c/li\u003e\n\u003cli\u003eThe Working Group will meet to review the incident and determine what happened.\u003cul\u003e\n\u003cli\u003eWith the permission of person reporting the incident, the Working Group may reach out to other community members for more context.\u003c/li\u003e\n\u003cli\u003eThe Working Group will reach a decision as to how to act. These may include:\u003cul\u003e\n\u003cli\u003eNothing.\u003c/li\u003e\n\u003cli\u003eA request for a private or public apology.\u003c/li\u003e\n\u003cli\u003eA private or public warning.\u003c/li\u003e\n\u003cli\u003eAn imposed vacation (for instance, asking someone to abstain for a week\nfrom the Facebook Group or Slack).\u003c/li\u003e\n\u003cli\u003eA permanent or temporary ban from some or all Hack Club spaces.\u003c/li\u003e\n\u003c/ul\u003e\u003c/li\u003e\n\u003c/ul\u003e\u003c/li\u003e\n\u003cli\u003eThe Working Group will reach out to the original reporter to let them know the decision.\u003c/li\u003e\n\u003cli\u003eAppeals to the decision may be made to the Working Group, or to any of its members directly.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cstrong\u003eNote that the goal of the Code of Conduct and the Working Group is to resolve conflicts in the most harmonious way possible.\u003c/strong\u003e We hope that in most cases issues may be resolved through polite discussion and mutual agreement. Bannings and other forceful measures are to be employed only as a last resort.\u003c/p\u003e\n\u003cp\u003eChanges to the Code of Conduct (including to the members of the Working Group) should be proposed by creating an issue \u003ca href=\"https://github.com/hackclub/hackclub/issues/new\" class=\"external\"\u003ehere\u003c/a\u003e or making a pull request to this document.\u003c/p\u003e\n\u003ch2 id=\"summary\" class=\"heading\"\u003e\u003ca href=\"#summary\"\u003eSummary\u003c/a\u003e\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eTreat everyone with respect and kindness.\u003c/li\u003e\n\u003cli\u003eBe thoughtful in how you communicate.\u003c/li\u003e\n\u003cli\u003eDon't be destructive or inflammatory.\u003c/li\u003e\n\u003cli\u003eIf you encounter an issue, please mail conduct@hackclub.com.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2 id=\"acknowledgments\" class=\"heading\"\u003e\u003ca href=\"#acknowledgments\"\u003eAcknowledgments\u003c/a\u003e\u003c/h2\u003e\n\u003cp\u003eThis was adapted from \u003ca href=\"https://github.com/golang/go/commit/aa487e66f869785837275ee20441a53888a51bb2\" class=\"external\"\u003eGo's Code of Conduct\u003c/a\u003e. It is to be noted that many parts of Go's Code of Conduct are adopted from the Code of Conduct documents of the Django, FreeBSD, and Rust projects.\u003c/p\u003e"},"__N_SSG":true},"page":"/conduct","query":{},"buildId":"IVS_L7QggRH3AYpB9oNAt","assetPrefix":"/workshops","runtimeConfig":{},"nextExport":false,"isFallback":false,"gsp":true}</script>
+    <script nomodule="" src="/workshops/_next/static/runtime/polyfills-b6f4b95376fefb13cca6.js"></script>
+    <script async="" data-next-page="/_app" src="/workshops/_next/static/IVS_L7QggRH3AYpB9oNAt/pages/_app.js"></script>
+    <script async="" data-next-page="/conduct"
+        src="/workshops/_next/static/IVS_L7QggRH3AYpB9oNAt/pages/conduct.js"></script>
+    <script src="/workshops/_next/static/runtime/webpack-b867935e267e192a11ba.js" async=""></script>
+    <script src="/workshops/_next/static/chunks/framework.58fc7dcf2bf1f30ab30c.js" async=""></script>
+    <script src="/workshops/_next/static/chunks/commons.420462c86cb0d9fb74e2.js" async=""></script>
+    <script src="/workshops/_next/static/chunks/8f0e2bbcfbcbf43b315d8dfa789952169af962b4.6a62d243f3231256c4b1.js"
+        async=""></script>
+    <script src="/workshops/_next/static/runtime/main-204ce9c3580927723629.js" async=""></script>
+    <script src="/workshops/_next/static/chunks/fa90c7346866f92f963107f309529dbe3f1f35d4.0d240450bb26a5ca5a78.js"
+        async=""></script>
+    <script src="/workshops/_next/static/IVS_L7QggRH3AYpB9oNAt/_buildManifest.js" async=""></script>
+    <script src="/workshops/_next/static/IVS_L7QggRH3AYpB9oNAt/_ssgManifest.js" async=""></script>
+</body>
+
+</html>
